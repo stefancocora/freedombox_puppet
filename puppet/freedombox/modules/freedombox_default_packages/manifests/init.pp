@@ -9,7 +9,7 @@ class freedombox_default_packages::install {
     # Specific packages:
 
     # utils
-    package { ['dialog', 'htop', 'lsof', 'man-db', 'rsync', 'git-core', 'dstat']: }
+    package { ['dialog', 'htop', 'lsof', 'man-db', 'rsync', 'git-core', 'dstat', 'less']: }
 
     # network
     package { ['iputils-ping', 'hping3', 'tshark', 'ngrep', 'strace', 'tcpdump', 'whois', 'ftp', 'iptraf', 'dnsutils', 'netcat', 'socat', 'nmap', 'telnet', 'mtr', 'traceroute', 'tcptraceroute']: }
